@@ -1,10 +1,7 @@
 // import './App.css';
-// import { faClock } from '@fortawesome/free-regular-svg-icons';
-// import Overview from './design-system/components/Overview';
 
-import SpeakersData from "./design-system/components/CreativeSpeakers/SpeakersData";
-
-import CreativeSpeakers from "./design-system/components/CreativeSpeakers";
+import OurPrograms from './design-system/components/OurPrograms/OurPrograms';
+import './design-system/main.css';
 // import overviewData from './design-system/components/Overview/Data';
 function App() {
   return (
@@ -17,7 +14,7 @@ function App() {
             )
           })
         } */}
-        {
+        {/* {
           SpeakersData.map((item) => {
             return (
               <CreativeSpeakers
@@ -29,7 +26,8 @@ function App() {
               />
             )
           })
-        }
+        } */}
+        <OurPrograms />
       </div>
     </div>
   );
