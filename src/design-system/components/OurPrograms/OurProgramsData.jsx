@@ -1,13 +1,13 @@
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import { faMicrophone, faUserGroup } from '@fortawesome/free-solid-svg-icons';
-import first1 from "../../../shared/assets/OurPrograms/firstday-1.jpg";
-import first2 from "../../../shared/assets/OurPrograms/firstday-2.jpg";
-import first3 from "../../../shared/assets/OurPrograms/firstday-3.jpg";
-// import first4 from "../../../shared/assets/OurPrograms/secondday-1.jpg";
-// import first5 from "../../../shared/assets/OurPrograms/secondday-2.jpg";
-// import first6 from "../../../shared/assets/OurPrograms/secondday-3.jpg";
-// import first7 from "../../../shared/assets/OurPrograms/thirdday-1.jpg";
-// import first8 from "../../../shared/assets/OurPrograms/thirdday-2.jpg";
+import first1 from "images/OurPrograms/firstday-1.jpg";
+import first2 from "images/OurPrograms/firstday-2.jpg";
+import first3 from "images/OurPrograms/firstday-3.jpg";
+// import first4 from "images/OurPrograms/secondday-1.jpg";
+// import first5 from "images/OurPrograms/secondday-2.jpg";
+// import first6 from "images/OurPrograms/secondday-3.jpg";
+// import first7 from "images/OurPrograms/thirdday-1.jpg";
+// import first8 from "images/OurPrograms/thirdday-2.jpg";
 const data = [
     {
         id: 1,
