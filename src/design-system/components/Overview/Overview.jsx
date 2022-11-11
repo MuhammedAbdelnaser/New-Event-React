@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Description, OverviewWrapper, Title } from './Styles';
+import { Description, OverviewWrapper, Title } from './styles';
 
 const Overview = ({ icon, title, description }) => {
     return (

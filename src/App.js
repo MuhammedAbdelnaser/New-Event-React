@@ -1,12 +1,11 @@
 // import './App.css';
 
-import OurPrograms from './design-system/components/OurPrograms/OurPrograms';
 import './design-system/main.css';
 // import overviewData from './design-system/components/Overview/Data';
 function App() {
   return (
     <div className="App">
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
         {/* {
           overviewData.map((item) => {
             return (
@@ -27,7 +26,22 @@ function App() {
             )
           })
         } */}
-        <OurPrograms />
+        {/* {
+          OurProgramsData.map((item) => {
+            return (
+              <OurPrograms
+                key={item.id}
+                img={item.img}
+                alt={item.alt}
+                time={item.time}
+                roomNumber={item.roomNumber}
+                title={item.title}
+                name={item.name}
+                description={item.description}
+              />
+            )
+          })
+        } */}
       </div>
     </div>
   );
