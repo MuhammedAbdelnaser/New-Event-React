@@ -1,11 +1,14 @@
 // import './App.css';
 
+import OurSponsors from './design-system/components/OurSponsors/OurSponsors';
+import ourSponsors from './design-system/components/OurSponsors/OurSponsorsData';
 import './design-system/main.css';
 // import overviewData from './design-system/components/Overview/Data';
+
 function App() {
   return (
     <div className="App">
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex' }}>
         {/* {
           overviewData.map((item) => {
             return (
@@ -42,6 +45,13 @@ function App() {
             )
           })
         } */}
+        {
+          ourSponsors.map((item) => {
+            return (
+              <OurSponsors src={item.img} alt={item.alt} key={item.id} />
+            )
+          })
+        }
       </div>
     </div>
   );

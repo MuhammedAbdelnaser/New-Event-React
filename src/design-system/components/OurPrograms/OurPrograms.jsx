@@ -2,7 +2,6 @@
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
 import { IconWrapper, Image, ImageWrapper, OurProgramsWrapper } from './styles';
 const OurPrograms = ({ img, alt, time, roomNumber, title, name, description }) => {
     return (
