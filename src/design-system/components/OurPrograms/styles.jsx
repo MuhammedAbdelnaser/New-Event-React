@@ -19,8 +19,3 @@ export const IconWrapper = styled("div")`
     display: flex;
     gap: 2rem;
 `
-// export const SponsorsImageWrapper = styled("div")`
-//     label: SponsorsImageWrapper;
-//     display: flex;
-//     gap: 2rem;
-// `
