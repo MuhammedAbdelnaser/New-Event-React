@@ -3,6 +3,8 @@ import theme from '../../../../config';
 
 export const NavbarWrapper = styled("section")`
     label: NavbarWrapper;
+    position: fixed;
+    width: 100%;
     padding: 1.2rem 0;
     color: ${theme.white};
     background-color: ${theme.secondary}
