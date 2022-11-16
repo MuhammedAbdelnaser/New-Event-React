@@ -2,7 +2,6 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './design-system/main.css';
-import Header from './design-system/pages/home/components/Header';
 import Home from './design-system/pages/home/Home';
 // import overviewData from './design-system/components/Overview/Data';
 
@@ -15,7 +14,6 @@ function App() {
             <Route path='/' element={<Home />} />
           </Routes>
         </BrowserRouter>
-        <Header />
         {/* {
           overviewData.map((item) => {
             return (
