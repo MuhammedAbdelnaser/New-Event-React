@@ -3,7 +3,7 @@ import theme from "../../../../config";
 
 export const AboutUsWrapper = styled("section")`
     label: AboutUsWrapper;
-    padding: 3rem 0;
+    padding: 5rem 0;
     display: flex;
     gap: 2rem;
     align-items: flex-start;

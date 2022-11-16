@@ -14,13 +14,7 @@ function App() {
             <Route path='/' element={<Home />} />
           </Routes>
         </BrowserRouter>
-        {/* {
-          overviewData.map((item) => {
-            return (
-              <Overview key={item.id} icon={item.icon} title={item.title} description={item.description} />
-            )
-          })
-        } */}
+
         {/* {
           SpeakersData.map((item) => {
             return (
