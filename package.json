@@ -27,7 +27,8 @@
     "postinstall": "link-module-alias"
   },
   "_moduleAliases": {
-    "images": "./src/shared/assets"
+    "images": "./src/shared/assets",
+    "design": "./src/design-system"
   },
   "eslintConfig": {
     "extends": [

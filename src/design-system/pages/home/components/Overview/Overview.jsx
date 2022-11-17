@@ -1,5 +1,5 @@
-import OverviewComponent from 'images/../../src/design-system/components/Overview/Overview';
-import overviewData from 'images/../../src/design-system/components/Overview/OverviewData';
+import OverviewComponent from 'design/components/Overview/Overview';
+import overviewData from 'design/components/Overview/OverviewData';
 import React from 'react';
 import { Container, OverviewWrapper } from './style';
 
