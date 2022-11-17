@@ -1,44 +1,39 @@
 // Import Swiper React components
-import slide1 from 'images/speakers/image-1.jpg';
-import slide2 from 'images/speakers/image-2.jpg';
-import slide3 from 'images/speakers/image-3.jpg';
-import slide4 from 'images/speakers/image-4.jpeg';
-import slide5 from 'images/speakers/image-5.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
+import CreativeSpeakers from 'design/components/CreativeSpeakers/CreativeSpeakers';
+import SpeakersData from 'design/components/CreativeSpeakers/SpeakersData';
 import { Autoplay } from 'swiper';
 import 'swiper/css';
-import { SlideImg, SliderWrapper } from './style';
-
 export default () => {
     return (
         <Swiper
             className='container'
-            autoplay={{ delay: 2000 }}
+            autoplay={{
+                delay: 2000,
+                disableOnInteraction: false
+            }}
             loop={true}
             modules={[Autoplay]}
             spaceBetween={50}
-            slidesPerView={3}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            slidesPerView={4}
+
         >
-            <SliderWrapper>
-                <SwiperSlide>
-                    <SlideImg src={slide1} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SlideImg src={slide2} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SlideImg src={slide3} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SlideImg src={slide4} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SlideImg src={slide5} />
-                </SwiperSlide>
-            </SliderWrapper>
+            {
+                SpeakersData.map((item) => {
+                    return (
+                        <SwiperSlide key={item.id}>
+                            <CreativeSpeakers
+                                name={item.name}
+                                job={item.job}
+                                src={item.img}
+                                alt={item.alt}
+                                img={item.img}
+                            />
+                        </SwiperSlide>
+                    )
+                })
+            }
         </Swiper>
     );
 };

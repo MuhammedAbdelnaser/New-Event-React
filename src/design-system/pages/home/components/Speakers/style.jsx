@@ -23,9 +23,6 @@ export const P = styled("p")`
 `
 export const SliderWrapper = styled("div")`
     label: SliderWrapper;
-    margin-top: 3rem;
+    padding: 2rem 0;
     `
-export const SlideImg = styled("img")`
-    label: SlideImg;
-    width: 330px 
-    `
+

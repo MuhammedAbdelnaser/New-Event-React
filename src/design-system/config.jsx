@@ -5,7 +5,7 @@ const theme = {
     white: "#fff",
     active: "#66ccff",
     black: "#222",
-    whiteSmoke: "#f5f5f5"
+    whiteSmoke: "#ededed"
 }
 
 export default theme
