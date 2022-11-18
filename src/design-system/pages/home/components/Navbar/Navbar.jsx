@@ -3,7 +3,7 @@ import { Event, LinksWrapper, NavbarWrapper, NavContainer, NavTitle } from "./st
 
 export default function Navbar() {
     return (
-        <NavbarWrapper>
+        <NavbarWrapper style={{ zIndex: 100 }}>
             <div className="container">
                 <NavContainer>
                     <div>

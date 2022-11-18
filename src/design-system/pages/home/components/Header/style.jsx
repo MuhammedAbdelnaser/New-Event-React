@@ -3,7 +3,6 @@ import background from 'images/intro-bg.jpg';
 import theme from '../../../../config';
 export const HeaderWrapper = styled("div")`
     label: HeaderWrapper;
-    height: 100vh;
     padding: 20% 0;
     text-align: center;
     background-repeat: no-repeat;
