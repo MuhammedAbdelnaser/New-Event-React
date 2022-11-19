@@ -2,8 +2,8 @@
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconWrapper, Image, ImageWrapper, OurProgramsWrapper } from './styles';
-const OurPrograms = ({ img, alt, time, roomNumber, title, name, description }) => {
+import { Description, IconWrapper, Image, ImageWrapper, Name, OurProgramsWrapper, Title } from './styles';
+const OurProgramsComponent = ({ img, alt, time, roomNumber, title, name, description }) => {
     return (
         <OurProgramsWrapper>
             <ImageWrapper>
@@ -12,22 +12,23 @@ const OurPrograms = ({ img, alt, time, roomNumber, title, name, description }) =
             <div>
                 <IconWrapper>
                     <div>
-                        <FontAwesomeIcon size="sm" icon={faClock} /> {time}
+                        <FontAwesomeIcon size="sm" icon={faClock} />
+                        <span style={{ paddingLeft: "0.3rem" }}>{time}</span>
                     </div>
                     <div>
-                        <FontAwesomeIcon size="sm" icon={faMapMarker} />
-                        <span>
+                        <FontAwesomeIcon style={{ padding: "0 0.4rem" }} size="sm" icon={faMapMarker} />
+                        <span style={{ paddingRight: "0.3rem" }}>
                             Room
                         </span>
                         {roomNumber}
                     </div>
                 </IconWrapper>
-                <h2>{title}</h2>
-                <span>{name}</span>
-                <p>{description}</p>
+                <Title>{title}</Title>
+                <Name>{name}</Name>
+                <Description>{description}</Description>
             </div>
         </OurProgramsWrapper>
     );
 };
 
-export default OurPrograms;
+export default OurProgramsComponent;

@@ -8,7 +8,7 @@ import img7 from "images/OurPrograms/thirdday-1.jpg";
 import img8 from "images/OurPrograms/thirdday-2.jpg";
 import img9 from "images/OurPrograms/thirdday-3.jpg";
 
-const data = [
+export const tab1 = [
     {
         id: 1,
         title: "Introduction to Design",
@@ -38,10 +38,13 @@ const data = [
         img: img3,
         alt: 'image3',
         description: "Quisque ut libero sapien. Integer tellus nisl, eff: sed dolor at, vehicula finibus m Integer tellus nisl, eff: sed dolor at, vehicula finibus m"
-    },
+    }
+]
+export const tab2 = [
+
     {
         id: 4,
-        title: "Introduction to Design",
+        title: "Back-End Developer",
         roomNumber: 244,
         name: "By Mariano Diaz",
         time: "09.00 AM",
@@ -51,7 +54,7 @@ const data = [
     },
     {
         id: 5,
-        title: "Introduction to Design",
+        title: "DevOps Programmer",
         roomNumber: 242,
         name: "By Roberto Ferminio",
         time: "08.00 AM",
@@ -61,17 +64,19 @@ const data = [
     },
     {
         id: 6,
-        title: "Introduction to Design",
+        title: "Software Engineer",
         roomNumber: 248,
         name: "By Cristiano Ronaldo",
         time: "10.00 AM",
         img: img6,
         alt: 'image6',
         description: "Quisque ut libero sapien. Integer tellus nisl, eff: sed dolor at, vehicula finibus m Integer tellus nisl, eff: sed dolor at, vehicula finibus m"
-    },
+    }
+]
+export const tab3 = [
     {
         id: 7,
-        title: "Introduction to Design",
+        title: "Tech Lead",
         roomNumber: 247,
         name: "By Leonel Messi",
         time: "10.00 AM",
@@ -81,7 +86,7 @@ const data = [
     },
     {
         id: 8,
-        title: "Introduction to Design",
+        title: "UI & UX Designer",
         roomNumber: 252,
         name: "By  Michael Anton",
         time: "09.00 AM",
@@ -91,7 +96,7 @@ const data = [
     },
     {
         id: 9,
-        title: "Introduction to Design",
+        title: "React Native Programmer",
         roomNumber: 240,
         name: "By Steffen Harvy",
         time: "09.00 AM",
@@ -100,4 +105,3 @@ const data = [
         description: "Quisque ut libero sapien. Integer tellus nisl, eff: sed dolor at, vehicula finibus m Integer tellus nisl, eff: sed dolor at, vehicula finibus m"
     },
 ]
-export default data

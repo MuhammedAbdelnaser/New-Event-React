@@ -14,7 +14,7 @@ export const Header = styled("h1")`
 `
 export const Span = styled("span")`
     label: Span;
-    color: ${theme.primary};
+    padding: 2rem 0;
     font-weight: bold;
     cursor: pointer;
 `
@@ -24,7 +24,6 @@ export const P = styled("p")`
 `
 export const TabsWrapper = styled("div")`
     label: TabsWrapper;
-    padding-top: 1rem;
 `
 export const Wrapper = styled("div")`
     label: Wrapper;
@@ -37,5 +36,5 @@ export const Line = styled("div")`
     height: 1px;
     width: 100%;
     background-color: ${theme.gray};
-    margin-top: 1.5rem;
+    margin: 0 0 2rem;
 `
