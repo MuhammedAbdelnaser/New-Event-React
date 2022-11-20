@@ -4,13 +4,19 @@ import theme from '../../../../config';
 
 export const RegisterHereWrapper = styled("div")`
     label: RegisterHereWrapper;
-    height: 450px;
-    padding: 3rem 0;
+    height: 400px;
+    padding: 4rem 5rem 2rem;
     background-size: cover;
     background-repeat: no-repeat;
     background: url(${register}) fixed;
     display: flex;
     justify-content: space between
+`
+export const RegisterContainer = styled("div")`
+    label: RegisterContainer;
+    display: flex;
+    justify-content: space-between;
+
 `
 export const Header = styled("h1")`
     label: Header;
@@ -33,4 +39,42 @@ export const Span = styled("span")`
 export const P = styled("p")`
     label: P;
     color: ${theme.gray};
+    line-height: 1.7;
+`
+export const FormWrapper = styled("div")`
+    label: FormWrapper;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+`
+export const RegisterInput = styled("input")`
+    label: RegisterInput;
+    padding: 0.9rem;
+    margin: 0.5rem;
+    background: transparent;
+    color: ${theme.white};
+    border: 2px solid ${theme.white};
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;  
+    ::placeholder {
+        font-size: 1rem;  
+    }
+`
+export const Learn = styled("button")`
+    label: Learn;
+    color: ${theme.primary};
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1rem;
+    background-color: ${theme.white};
+    border: 1px solid ${theme.white};
+    :hover {
+        color: ${theme.white};
+        background-color: ${theme.primary};
+        border: 1px solid ${theme.white};
+    }
 `

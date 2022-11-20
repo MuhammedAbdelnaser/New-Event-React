@@ -33,9 +33,8 @@ export const Learn = styled("button")`
     :hover {
         background-color: ${theme.primary};
         border: 1px solid ${theme.white};
-
     }
-    `
+`
 export const Register = styled("button")`
     label: Register;
     color: ${theme.white};
