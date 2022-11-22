@@ -10,6 +10,7 @@ export const Wrapper = styled("div")`
 export const AccordionWrapper = styled("div")`
     label: AccordionWrapper;
     width: 70%;
+    height: 400px;
 `
 export const Item = styled("div")`
     label: Item;

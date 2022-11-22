@@ -22,6 +22,7 @@ export default function Tabs() {
                 tab2.map((item) => {
                     return (
                         <OurProgramsComponent
+                            key={item.id}
                             img={item.img}
                             description={item.description}
                             alt={item.alt}
@@ -37,6 +38,7 @@ export default function Tabs() {
                     tab3.map((item) => {
                         return (
                             <OurProgramsComponent
+                                key={item.id}
                                 img={item.img}
                                 description={item.description}
                                 alt={item.alt}
@@ -50,6 +52,7 @@ export default function Tabs() {
                     }) : tab1.map((item) => {
                         return (
                             <OurProgramsComponent
+                                key={item.id}
                                 img={item.img}
                                 description={item.description}
                                 alt={item.alt}
