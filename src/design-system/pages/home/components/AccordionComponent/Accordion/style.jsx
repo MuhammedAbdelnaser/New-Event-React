@@ -14,11 +14,14 @@ export const AccordionWrapper = styled("div")`
 export const Item = styled("div")`
     label: Item;
     margin-bottom: 10px;
-    box-shadow: 3px 4px 6px -4px ${theme.white};
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
 `
 export const Title = styled("div")`
     label: Title;
     background-color: ${theme.whiteSmoke};
+    padding: 0 1rem;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     Justify-content: space-between;
@@ -26,15 +29,22 @@ export const Title = styled("div")`
 `
 export const H2 = styled("h2")`
     label: H2;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: normal;
     color: ${theme.black};
 `
 export const Content = styled("div")`
     label: Content;
-    padding: 0 0.5rem;
+    text-align: left;
+    padding: 0 1rem;
     max-height: 0;
     overflow: hidden;
-    transition: 0.5 all cubic-bezier(1, 0, 1, 0);
+    transition: 1s all cubic-bezier(0, 1, 0, 1);
+    &.show {
+        height: auto;
+        max-height: 1000px;
+        transition: 1s all cubic-bezier(1, 0, 1, 0);
+    }
 `
 export const P = styled("p")`
     label: P;

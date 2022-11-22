@@ -1,19 +1,36 @@
+import { useState } from "react";
+import { accordionData } from "./data";
 import { AccordionWrapper, Content, H2, Item, P, Title, Wrapper } from "./style";
 
 export default function Accordion() {
+    const [active, setActive] = useState(null);
+
+    const toggle = (i) => {
+        if (active === i) {
+            return setActive(null)
+        } else {
+            setActive(i)
+        }
+    }
     return (
         <Wrapper>
             <AccordionWrapper>
-                <Item>
-                    <Title>
-                        <H2>What is your name</H2>
-                        <span>+</span>
-                    </Title>
-                    <Content>
-                        <P>1</P>
-                        <P>2</P>
-                    </Content>
-                </Item>
+                {
+                    accordionData.map((item, i) => {
+                        return (
+                            <Item key={i} onClick={() => toggle(i)}>
+                                <Title>
+                                    <H2>{item.question}</H2>
+                                    <span>{active === i ? "-" : "+"}</span>
+                                </Title>
+                                <Content className={active === i ? "show" : ""}>
+                                    <P>{item.answerOne}</P>
+                                    <P>{item.answerTwo}</P>
+                                </Content>
+                            </Item>
+                        )
+                    })
+                }
             </AccordionWrapper>
         </Wrapper>
     )
