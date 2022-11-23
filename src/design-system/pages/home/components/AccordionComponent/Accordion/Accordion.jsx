@@ -13,25 +13,27 @@ export default function Accordion() {
         }
     }
     return (
-        <Wrapper>
-            <AccordionWrapper>
-                {
-                    accordionData.map((item, i) => {
-                        return (
-                            <Item key={i} onClick={() => toggle(i)}>
-                                <Title>
-                                    <H2>{item.question}</H2>
-                                    <span>{active === i ? "-" : "+"}</span>
-                                </Title>
-                                <Content className={active === i ? "show" : ""}>
-                                    <P>{item.answerOne}</P>
-                                    <P>{item.answerTwo}</P>
-                                </Content>
-                            </Item>
-                        )
-                    })
-                }
-            </AccordionWrapper>
-        </Wrapper>
+        <div style={{ height: "350px", margin: "2rem 0" }}>
+            <Wrapper>
+                <AccordionWrapper>
+                    {
+                        accordionData.map((item, i) => {
+                            return (
+                                <Item key={i} onClick={() => toggle(i)}>
+                                    <Title>
+                                        <H2>{item.question}</H2>
+                                        <span>{active === i ? "-" : "+"}</span>
+                                    </Title>
+                                    <Content className={active === i ? "show" : ""}>
+                                        <P>{item.answerOne}</P>
+                                        <P>{item.answerTwo}</P>
+                                    </Content>
+                                </Item>
+                            )
+                        })
+                    }
+                </AccordionWrapper>
+            </Wrapper>
+        </div>
     )
 }
