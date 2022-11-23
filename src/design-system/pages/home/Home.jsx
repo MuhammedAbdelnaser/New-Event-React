@@ -3,6 +3,7 @@ import AccordionComponent from "./components/AccordionComponent/AccordionCompone
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar";
 import OurPrograms from "./components/OurPrograms/OurPrograms";
+import OurSponsorsComponent from "./components/OurSponsors/OurSponsors";
 import Overview from "./components/Overview/Overview";
 import RegisterHere from "./components/RegisterHere/RegisterHere";
 import Speakers from "./components/Speakers/Speakers";
@@ -22,6 +23,7 @@ export default function Home() {
             <RegisterHere />
             <AccordionComponent />
             <Venue />
+            <OurSponsorsComponent />
         </>
     )
 }

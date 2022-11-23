@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Accordion from './Accordion/Accordion'
 import { AccordionWrapper, FirstWord, P, SecondWord } from './style'
 

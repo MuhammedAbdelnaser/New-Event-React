@@ -1,6 +1,5 @@
-import aboutUsImg from 'images/overview-img.jpg'
-import React from 'react'
-import { AboutUsWrapper, P, Span } from './styles'
+import aboutUsImg from 'images/overview-img.jpg';
+import { AboutUsWrapper, P, Span } from './styles';
 export default function AboutUs() {
     return (
         <div className='container'>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Header, OurProgramsWrapper, P, Span, TabsWrapper } from './style'
 import Tabs from './Tabs'
 
