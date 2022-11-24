@@ -1,5 +1,6 @@
 import AboutUs from "./components/AboutUs";
 import AccordionComponent from "./components/AccordionComponent/AccordionComponent";
+import ContactUs from "./components/ContactUs";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar";
 import OurPrograms from "./components/OurPrograms/OurPrograms";
@@ -24,6 +25,7 @@ export default function Home() {
             <AccordionComponent />
             <Venue />
             <OurSponsorsComponent />
+            <ContactUs />
         </>
     )
 }

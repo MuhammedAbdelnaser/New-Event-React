@@ -7,7 +7,6 @@ export const OurSponsorsWrapper = styled("div")`
     text-align :center;
     display: flex;
     justify-content: space between;
-    background-color: ${theme.whiteSmoke};
 `
 export const Header = styled("h1")`
     label: Header;

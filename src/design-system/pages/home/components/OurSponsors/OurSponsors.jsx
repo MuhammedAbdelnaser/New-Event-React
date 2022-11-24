@@ -13,8 +13,8 @@ export default function OurSponsorsComponent() {
                     {
                         OurSponsorsData.map((sponsor) => {
                             return (
-                                <SponsorsWrapper>
-                                    <OurSponsors src={sponsor.img} key={sponsor.id} alt={sponsor.alt} />
+                                <SponsorsWrapper key={sponsor.id}>
+                                    <OurSponsors src={sponsor.img} alt={sponsor.alt} />
                                 </SponsorsWrapper>
                             )
                         })
