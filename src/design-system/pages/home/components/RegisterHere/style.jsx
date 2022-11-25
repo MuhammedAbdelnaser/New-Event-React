@@ -61,8 +61,8 @@ export const RegisterInput = styled("input")`
         font-size: 1rem;  
     }
 `
-export const Learn = styled("button")`
-    label: Learn;
+export const RegisterButton = styled("button")`
+    label: RegisterButton;
     color: ${theme.primary};
     padding: 1rem 3rem;
     font-size: 1rem;

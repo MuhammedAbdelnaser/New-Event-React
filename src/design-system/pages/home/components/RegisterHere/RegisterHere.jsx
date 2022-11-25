@@ -1,4 +1,4 @@
-import { FormWrapper, H3, Header, Learn, P, RegisterContainer, RegisterHereWrapper, RegisterInput, Span } from "./style";
+import { FormWrapper, H3, Header, P, RegisterButton, RegisterContainer, RegisterHereWrapper, RegisterInput, Span } from "./style";
 
 export default function RegisterHere() {
     return (
@@ -18,7 +18,7 @@ export default function RegisterHere() {
                         <RegisterInput type='number' placeholder="Phone Number" />
                         <RegisterInput type='email' placeholder="Email Address" />
                         <div style={{ textAlign: "right" }}>
-                            <Learn>Register Here</Learn>
+                            <RegisterButton>Register Here</RegisterButton>
                         </div>
                     </FormWrapper>
                 </RegisterContainer>
