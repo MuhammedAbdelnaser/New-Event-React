@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import theme from "../../../../config";
+import { theme } from "../../../../config";
 import links from "./Links";
 import NavLinks from "./NavLinks";
 

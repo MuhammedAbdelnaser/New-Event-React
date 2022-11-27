@@ -1,10 +1,10 @@
 import styled from '@emotion/styled';
 import contact from 'images/contact-bg.jpg';
-import theme from '../../../../config';
+import { theme } from '../../../../config';
 
 export const ContactWrapper = styled("div")`
     label: ContactWrapper;
-    height: 500px;
+    height: 550px;
     padding: 4rem 2rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,6 +61,7 @@ export const FormWrapper = styled("div")`
     label: FormWrapper;
     background-color: ${theme.white};
     border-radius: 20px;
+    min-width: 350px;
     padding: 3rem;
     margin: 0 2rem;
 `

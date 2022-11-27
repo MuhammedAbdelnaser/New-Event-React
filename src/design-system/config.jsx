@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
     primary: '#f2545f',
     secondary: "#090707",
     gray: "#707070",
@@ -8,4 +8,4 @@ const theme = {
     whiteSmoke: "#ededed"
 }
 
-export default theme
+export const madeBy = "Muhammed Abdelnaser"

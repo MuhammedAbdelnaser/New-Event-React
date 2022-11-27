@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import background from 'images/intro-bg.jpg';
-import theme from '../../../../config';
+import { theme } from '../../../../config';
 export const HeaderWrapper = styled("div")`
     label: HeaderWrapper;
     padding: 20% 0;

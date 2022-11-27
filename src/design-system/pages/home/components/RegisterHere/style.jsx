@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import register from 'images/register-bg.jpg';
-import theme from '../../../../config';
+import { theme } from '../../../../config';
 
 export const RegisterHereWrapper = styled("div")`
     label: RegisterHereWrapper;
