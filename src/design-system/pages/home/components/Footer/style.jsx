@@ -18,7 +18,26 @@ export const MadeBy = styled("span")`
 `
 export const Ul = styled("ul")`
     label: Ul;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    list-style: none;
 `
 export const Li = styled("li")`
     label: Li;
+    :hover {
+        background-color: ${theme.primary};
+        color: ${theme.white};
+    };
+    padding: 0.5rem;
+    color: ${theme.gray};
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 `
