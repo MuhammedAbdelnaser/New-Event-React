@@ -2,7 +2,7 @@ import { FormWrapper, H3, Header, P, RegisterButton, RegisterContainer, Register
 
 export default function RegisterHere() {
     return (
-        <RegisterHereWrapper>
+        <RegisterHereWrapper id="register">
             <div className="container">
                 <RegisterContainer>
                     <div style={{ width: "55%" }}>

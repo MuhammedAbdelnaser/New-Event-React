@@ -3,7 +3,7 @@ import OurSponsorsData from 'design/components/OurSponsors/OurSponsorsData';
 import { Header, OurSponsorsWrapper, P, SectionWrapper, Span, SponsorsWrapper } from "./style";
 export default function OurSponsorsComponent() {
     return (
-        <OurSponsorsWrapper>
+        <OurSponsorsWrapper id='sponsors'>
             <div className='container'>
                 <div>
                     <Header>Our <Span>Sponsors</Span></Header>

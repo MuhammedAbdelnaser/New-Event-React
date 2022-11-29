@@ -5,7 +5,7 @@ import Tabs from './Tabs'
 export default function OurPrograms() {
     return (
         <div className='container'>
-            <OurProgramsWrapper>
+            <OurProgramsWrapper id='programs'>
                 <Header>Our <Span>Programs</Span></Header>
                 <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt amet, consectetur adipiscing.
                 </P>

@@ -3,7 +3,7 @@ import { AboutUsWrapper, P, Span } from './styles';
 export default function AboutUs() {
     return (
         <div className='container'>
-            <AboutUsWrapper>
+            <AboutUsWrapper id='aboutUs'>
                 <div style={{ width: "80%" }}>
                     <Span>
                         New Event is a fully responsive one-page template for events, conferences or workshops.

@@ -2,7 +2,7 @@ import { ContactWrapper, DownloadButton, DownloadDiv, Event, FormTitle, FormWrap
 
 export default function ContactUs() {
     return (
-        <ContactWrapper>
+        <ContactWrapper id="contact">
             <div className="container">
                 <Wrapper>
                     <DownloadDiv>

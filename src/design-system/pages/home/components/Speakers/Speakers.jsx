@@ -3,7 +3,7 @@ import { Header, P, SliderWrapper, Span, SpeakersWrapper } from './style'
 
 export default function Speakers() {
     return (
-        <SpeakersWrapper>
+        <SpeakersWrapper id='speakers'>
             <div className='container'>
                 <Header>Creative <Span>Speakers</Span></Header>
                 <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt</P>

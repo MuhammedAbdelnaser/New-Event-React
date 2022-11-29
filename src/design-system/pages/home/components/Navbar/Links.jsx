@@ -5,31 +5,31 @@ export default function links() {
             navText: "Intro",
         },
         {
-            navLink: "/overview",
+            navLink: "#overview",
             navText: "Overview"
         },
         {
-            navLink: "/speakers",
+            navLink: "#speakers",
             navText: "Speakers"
         },
         {
-            navLink: "/programs",
+            navLink: "#programs",
             navText: "Programs"
         },
         {
-            navLink: "/register",
+            navLink: "#register",
             navText: "Register"
         },
         {
-            navLink: "/venue",
+            navLink: "#venue",
             navText: "Venue"
         },
         {
-            navLink: "/sponsors",
+            navLink: "#sponsors",
             navText: "Sponsors"
         },
         {
-            navLink: "/contact",
+            navLink: "#contact",
             navText: "Contact"
         },
     ]

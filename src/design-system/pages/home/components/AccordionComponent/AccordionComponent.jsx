@@ -5,7 +5,7 @@ import { AccordionWrapper, FirstWord, P, SecondWord } from './style'
 export default function AccordionComponent() {
     return (
         <div className='container'>
-            <AccordionWrapper>
+            <AccordionWrapper id='accordion'>
                 <FirstWord>
                     Do You Have
                     <SecondWord> Questions</SecondWord>?
